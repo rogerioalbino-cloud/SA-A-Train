@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#526CF0;
+    min-height:100vh;
+}
+
+.tela{
+    width:100%;
+    min-height:100vh;
+    background:#526CF0;
+    position:relative;
+    padding-top:30px;
+}
+
+.logo{
+    width:180px;
+    display:block;
+    margin:0 auto;
+}
+
+.titulo{
+    text-align:center;
+    font-size:55px;
+    font-weight:900;
+    color:#1f2d7d;
+    margin-top:-10px;
+}
+
+.subtitulo{
+    text-align:center;
+    font-size:22px;
+    color:#000;
+    line-height:1.5;
+    margin-top:10px;
+}
+
+form{
+    width:72%;
+    margin:30px auto;
+}
+
+label{
+    display:block;
+    color:#fff;
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:6px;
+}
+
+input[type="text"],
+input[type="password"]{
+    width:100%;
+    height:32px;
+    border:none;
+    background:#ececec;
+    padding-left:10px;
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:24px;
+}
+
+.opcoes{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.lembrar{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+.lembrar input{
+    width:20px;
+    height:20px;
+}
+
+.lembrar span{
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.esqueceu{
+    color:black;
+    font-size:18px;
+}
+
+.btn-area{
+    text-align:center;
+    margin-top:15px;
+}
+
+button{
+    width:220px;
+    height:85px;
+    border:none;
+    border-radius:15px;
+    background:#2400C8;
+    color:white;
+    font-size:32px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1c00a0;
+}
+
+.cadastro{
+    text-align:center;
+    margin-top:10px;
+    font-size:16px;
+}
+
+.cadastro a{
+    color:black;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatórios - A-Train</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="sidebar">
+
+        <div class="logo">
+            🚆
+            <span>Sistema de Trens</span>
+        </div>
+
+        <nav>
+            <a href="#">🏠 Início</a>
+            <a href="#">🚆 Trens</a>
+            <a href="#">📡 Sensores</a>
+            <a href="#" class="active">📊 Relatórios</a>
+            <a href="#">☰ Mais</a>
+        </nav>
+
+    </div>
+
+    <main>
+
+        <header>
+            <div class="menu">☰</div>
+            <h1>Relatórios</h1>
+            <div class="bluetooth">🅱</div>
+        </header>
+
+        <section class="filtros">
+
+            <div class="campo">
+                <label>Período</label>
+                <select>
+                    <option>01/05/2024 - 31/05/2024</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label>Tipo de relatório</label>
+                <select>
+                    <option>Ocorrências</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label>Trem (opcional)</label>
+                <select>
+                    <option>Todos</option>
+                </select>
+            </div>
+
+        </section>
+
+        <section class="conteudo">
+
+            <div class="grafico-container">
+
+                <div class="grafico"></div>
+
+                <div class="legenda info">
+                    Informativas<br>
+                    26,7%
+                </div>
+
+                <div class="legenda atencao">
+                    Atenção<br>
+                    33,3%
+                </div>
+
+                <div class="legenda critica">
+                    Crítica<br>
+                    40%
+                </div>
+
+            </div>
+
+            <button class="btn-relatorio">
+                📄 Gerar Relatório
+            </button>
+
+        </section>
+
+    </main>
+
+</body>
+</html>

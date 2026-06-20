@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A-TRAIN Loading</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <div class="loading-screen">
+
+
+        <img src="image.png" class="logo">
+
+
+        <div class="loading-bar">
+
+            <div class="progress"></div>
+
+        </div>
+
+
+        <p>Loading...</p>
+
+
+    </div>
+
+
+
+</body>
+
+</html>

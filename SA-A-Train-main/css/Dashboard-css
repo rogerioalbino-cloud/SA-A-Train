@@ -1,0 +1,348 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+
+body{
+
+    width:100vw;
+    height:100vh;
+
+    background:#f1f3f8;
+
+    overflow:hidden;
+
+}
+
+
+
+
+
+.dashboard{
+
+    width:100%;
+    height:100%;
+
+    background:#f1f3f8;
+
+}
+
+
+
+
+
+
+/* BARRA SUPERIOR */
+
+
+header{
+
+    height:65px;
+
+    background:#020f25;
+
+    color:white;
+
+    display:flex;
+
+    align-items:center;
+
+    padding:0 25px;
+
+    gap:35px;
+
+}
+
+
+
+header h2{
+
+    font-size:20px;
+
+}
+
+
+
+.menu{
+
+    font-size:25px;
+
+}
+
+
+
+.notification{
+
+    margin-left:auto;
+
+}
+
+
+
+
+
+/* ÁREA PRINCIPAL */
+
+
+.content{
+
+    height:calc(100vh - 65px);
+
+    display:flex;
+
+}
+
+
+
+
+
+/* MENU LATERAL */
+
+
+aside{
+
+    width:140px;
+
+    background:#00214d;
+
+    color:white;
+
+}
+
+
+
+.logo{
+
+    text-align:center;
+
+    padding:20px 5px;
+
+    font-size:38px;
+
+}
+
+
+
+.logo p{
+
+    font-size:12px;
+
+    margin-top:10px;
+
+}
+
+
+
+
+nav div{
+
+    padding:18px 12px;
+
+    font-size:14px;
+
+}
+
+
+
+nav .active{
+
+    background:#1455ad;
+
+    border-radius:5px;
+
+}
+
+
+
+
+
+/* ÁREA DOS DADOS */
+
+
+main{
+
+    flex:1;
+
+    display:flex;
+
+    gap:65px;
+
+    padding:50px 25px;
+
+}
+
+
+
+
+
+
+/* QUADROS COLORIDOS */
+
+
+.status-area{
+
+    width:150px;
+
+}
+
+
+
+.status{
+
+    height:125px;
+
+    margin-bottom:20px;
+
+    padding:10px;
+
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+
+    font-size:45px;
+
+}
+
+
+
+.status span{
+
+    font-size:20px;
+
+}
+
+
+
+.green{
+
+    background:#00ee00;
+
+}
+
+
+
+.orange{
+
+    background:#ff9100;
+
+}
+
+
+
+.red{
+
+    background:red;
+
+}
+
+
+
+
+
+
+/* CARDS */
+
+
+.cards{
+
+    flex:1;
+
+}
+
+
+
+.card{
+
+    height:145px;
+
+    background:white;
+
+    margin-bottom:15px;
+
+
+    display:flex;
+
+    align-items:center;
+
+
+    gap:60px;
+
+
+    padding:20px;
+
+}
+
+
+
+.icon{
+
+    width:80px;
+
+    text-align:center;
+
+    font-size:45px;
+
+}
+
+
+
+.green-icon{
+
+    color:green;
+
+}
+
+
+
+.orange-icon{
+
+    color:#ff9500;
+
+}
+
+
+
+.red-icon{
+
+    color:red;
+
+}
+
+
+
+
+.card h1{
+
+    font-size:28px;
+
+    margin-bottom:15px;
+
+}
+
+
+
+
+.card strong{
+
+    font-size:60px;
+
+}
+
+
+
+.card small{
+
+    font-size:30px;
+
+}

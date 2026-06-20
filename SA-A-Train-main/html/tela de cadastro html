@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Nova Conta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="formulario">
+
+            <h1>Criar nova conta</h1>
+
+            <div class="campo">
+                <label>Nome completo</label>
+                <input type="text" value="Carlos Henrique da Silva">
+            </div>
+
+            <div class="campo">
+                <label>E-mail</label>
+                <input type="email" value="carlos.silva@ferrovia.com">
+            </div>
+
+            <div class="campo">
+                <label>Usuário</label>
+                <input type="text" value="carlos.silva">
+            </div>
+
+            <div class="campo">
+                <label>Senha</label>
+
+                <div class="senha-box">
+                    <input type="password" value="12345678">
+                    <span class="icone">👁</span>
+                </div>
+            </div>
+
+            <div class="campo">
+                <label>Confirmar senha</label>
+
+                <div class="senha-box">
+                    <input type="password" value="12345678">
+                    <span class="check">✓</span>
+                </div>
+            </div>
+
+            <p class="login">
+                Já tem uma conta?
+                <a href="#">Voltar ao login</a>
+            </p>
+
+        </div>
+
+        <div class="lado-direito">
+
+            <img src="atrain.webp" alt="A-Train" class="logo">
+
+            <p class="descricao">
+                Monitoramento inteligente da<br>
+                sua frota ferroviária
+            </p>
+
+            <button class="btn-cadastrar">
+                Cadastrar
+            </button>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

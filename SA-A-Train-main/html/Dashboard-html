@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Trens</title>
+    <link rel="stylesheet" href="../css/Dashboard-css">
+</head>
+
+
+<body>
+
+
+<div class="dashboard">
+
+
+    <header>
+
+        <div class="menu">☰</div>
+
+        <h2>Dashboard</h2>
+
+        <div class="notification">🔔</div>
+
+    </header>
+
+
+
+
+    <div class="content">
+
+
+        <aside>
+
+
+            <div class="logo">
+
+                🚆
+
+                <p>Sistema de Trens</p>
+
+            </div>
+
+
+
+            <nav>
+
+                <div>⌂ &nbsp; Início</div>
+
+                <div>🚆 &nbsp; Trens</div>
+
+                <div>◉ &nbsp; Sensores</div>
+
+                <div class="active">
+                    ▮▮ &nbsp; Relatórios
+                </div>
+
+                <div>
+                    ☰ &nbsp; Mais
+                </div>
+
+
+            </nav>
+
+
+        </aside>
+
+
+
+
+
+
+        <main>
+
+
+
+            <section class="status-area">
+
+
+                <div class="status green">
+
+                    🚆
+
+                    <span>
+                        Trens Ativos
+                    </span>
+
+                </div>
+
+
+
+
+                <div class="status orange">
+
+                    🚆
+
+                    <span>
+                        Em<br>
+                        Andamento
+                    </span>
+
+                </div>
+
+
+
+
+
+                <div class="status red">
+
+                    🚆
+
+                    <span>
+                        Parados
+                    </span>
+
+                </div>
+
+
+
+            </section>
+
+
+
+
+
+
+
+            <section class="cards">
+
+
+                <div class="card">
+
+
+                    <div class="icon green-icon">
+                        🌿
+                    </div>
+
+
+                    <div>
+
+                        <h1>
+                            Velocidade Media
+                        </h1>
+
+
+                        <strong>
+                            72
+                            <small>
+                                km/h
+                            </small>
+                        </strong>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+                <div class="card">
+
+
+                    <div class="icon orange-icon">
+                        ⚠
+                    </div>
+
+
+                    <div>
+
+                        <h1>
+                            Alertas Ativos
+                        </h1>
+
+
+                        <strong>
+                            5
+                        </strong>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+
+
+                <div class="card">
+
+
+                    <div class="icon red-icon">
+                        ⚠
+                    </div>
+
+
+                    <div>
+
+                        <h1>
+                            Sensores Citricos
+                        </h1>
+
+
+                        <strong>
+                            3
+                        </strong>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+            </section>
+
+
+
+
+        </main>
+
+
+
+    </div>
+
+
+
+</div>
+
+
+</body>
+
+</html>

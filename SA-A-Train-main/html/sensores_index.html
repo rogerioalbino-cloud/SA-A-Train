@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sensores</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="logo">
+            <i class="fas fa-train"></i>
+            <span>Trens</span>
+        </div>
+
+        <nav>
+            <a href="#"><i class="fas fa-home"></i> Início</a>
+            <a href="#"><i class="fas fa-train-subway"></i> Trens</a>
+            <a href="#" class="active"><i class="fas fa-tower-broadcast"></i> Sensores</a>
+            <a href="#"><i class="fas fa-file-alt"></i> Relatórios</a>
+            <a href="#"><i class="fas fa-bars"></i> Mais</a>
+        </nav>
+    </aside>
+
+    <!-- Conteúdo -->
+    <main class="content">
+
+        <header class="topbar">
+            <h1>Sensores</h1>
+
+            <div class="notification">
+                <i class="fas fa-bell"></i>
+                <span>2</span>
+            </div>
+        </header>
+
+        <div class="search-area">
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Buscar sensor...">
+            </div>
+
+            <button class="filter-btn">
+                <i class="fas fa-filter"></i>
+            </button>
+        </div>
+
+        <!-- Lista -->
+        <section class="sensor-list">
+
+            <div class="sensor-card">
+                <div class="sensor-left">
+                    <div class="icon red">
+                        <i class="fas fa-temperature-high"></i>
+                    </div>
+
+                    <div>
+                        <h3>S - 88</h3>
+                        <p>Temperatura - Motor</p>
+                        <small>TR - 204</small>
+                    </div>
+                </div>
+
+                <div class="status red-text">
+                    <strong>72°C</strong>
+                    <span>Offline</span>
+                </div>
+            </div>
+
+            <div class="sensor-card">
+                <div class="sensor-left">
+                    <div class="icon green">
+                        <i class="fas fa-wave-square"></i>
+                    </div>
+
+                    <div>
+                        <h3>S - 92</h3>
+                        <p>Vibração - Bogie</p>
+                        <small>TR - 204</small>
+                    </div>
+                </div>
+
+                <div class="status green-text">
+                    <strong>3.2 mm/s</strong>
+                    <span>Normal</span>
+                </div>
+            </div>
+
+            <div class="sensor-card">
+                <div class="sensor-left">
+                    <div class="icon orange">
+                        <i class="fas fa-gauge"></i>
+                    </div>
+
+                    <div>
+                        <h3>S - 95</h3>
+                        <p>Pressão - Freio</p>
+                        <small>TR - 188</small>
+                    </div>
+                </div>
+
+                <div class="status orange-text">
+                    <strong>5.1 bar</strong>
+                    <span>Atenção</span>
+                </div>
+            </div>
+
+            <div class="sensor-card">
+                <div class="sensor-left">
+                    <div class="icon red">
+                        <i class="fas fa-circle"></i>
+                    </div>
+
+                    <div>
+                        <h3>S - 99</h3>
+                        <p>Temperatura - Eixo</p>
+                        <small>TR - 188</small>
+                    </div>
+                </div>
+
+                <div class="status red-text">
+                    <strong>----</strong>
+                    <span>Offline</span>
+                </div>
+            </div>
+
+            <div class="sensor-card">
+                <div class="sensor-left">
+                    <div class="icon green">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+
+                    <div>
+                        <h3>S - 101</h3>
+                        <p>Corrente - Bateria</p>
+                        <small>TR - 172</small>
+                    </div>
+                </div>
+
+                <div class="status green-text">
+                    <strong>12.6 A</strong>
+                    <span>Normal</span>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>

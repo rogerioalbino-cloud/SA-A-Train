@@ -75,4 +75,4 @@ ferrorama/
 
 # Observações
 
-Este projeto foi desenvolvido como parte da **Situação de Aprendizagem (SA)** da unidade curricular de Modelagem de Sistemas, com foco na construção da interface de um sistema de monitoramento ferroviário utilizando HTML e CSS.
+Este projeto foi desenvolvido como parte da **Situação de Aprendizagem (SA)** da unidade curricular de Programação de Aplicativo, com foco na construção da interface de um sistema de monitoramento ferroviário utilizando HTML e CSS.
